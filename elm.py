@@ -8,6 +8,7 @@
 #
 #       Copyright 2010 miguel <enoelrocotiv@gmail.com>
 #       Copyright 2010 oscar  <osc.iglesias@gmail.com>
+#       Copyright 2012 Miguel Gonzalez <migonzalvar@gmail.com>
 #
 #       This program is free software; you can redistribute it and/or modify
 #       it under the terms of the GNU General Public License as published by
