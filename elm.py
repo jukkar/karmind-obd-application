@@ -244,9 +244,9 @@ def build_logging():
         configfilepath = "karmind.ini"
     else:
         configfilepath=os.environ['HOME']+'/.karmind'
-    config.read("karmind.ini")
     logging_level = config.get("logging","level")
     event_log = config.get("logging","event_log")
+    config.read(configfilepath)
 
     if event_log == 'yes':
         LOG_FILENAME = time.strftime("%Y%m%dT%H%M%S.log")
